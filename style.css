@@ -1,0 +1,21 @@
+body {
+background-image: url('mustache.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+h3 {
+font-size: 25px !important;
+}
+.btn-success:hover {
+background-color: red;
+}
+canvas {
+animation-name: example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes example {
+from {box-shadow: 3px 3px 38px #D92393;}
+to {box-shadow: 3px 3px 38px #23D93E;}
+}
+
